@@ -4,3 +4,6 @@ matplotlib
 groq
 langchain
 langchain-community
+joblib
+seaborn
+scikit-learn
