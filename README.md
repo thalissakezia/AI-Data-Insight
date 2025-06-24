@@ -10,6 +10,9 @@ Explore seus dados de forma inteligente com uma interface interativa e recursos 
 
 ---
 
+📤 Executando o App Online
+Acesse aqui 👉 [https://ai-data-insight-1.streamlit.app]
+
 ## 🚀 Funcionalidades
 
 ✅ Upload de arquivos CSV  
@@ -46,4 +49,26 @@ pip install -r requirements.txt
 streamlit run app.py
 
 💡 Crie um arquivo .env ou use Streamlit Cloud Secrets com a variável:
+GROQ_API_KEY=sua_chave_da_groq
+
+☁️ Deploy (Streamlit Cloud)
+1- Crie um repositório com este projeto
+
+2- Vá em streamlit.io/cloud e conecte com o GitHub
+
+3- Escolha o repositório e defina app.py como entrypoint
+
+4- Em "Advanced settings", adicione os secrets:
+
+GROQ_API_KEY="sua_chave_da_groq"
+
+5- Clique em Deploy ✅
+
+
+🤝 Contribuições
+Sinta-se à vontade para abrir issues, forks ou PRs.
+Esse projeto é ideal para quem quer entender como aplicar IA no cotidiano de um cientista de dados.
+
+📄 Licença
+MIT License
 
